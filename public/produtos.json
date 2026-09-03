@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nome": "Óleo Facial de Rosa Mosqueta",
+    "categoria": "Rosto",
+    "preco": 79.9,
+    "estoque": 18,
+    "descricao": "Óleo 100% natural prensado a frio, rico em vitamina C, para hidratação e regeneração da pele.",
+    "imagem": "produto1.png"
+  },
+  {
+    "id": 2,
+    "nome": "Sabonete Sólido de Aveia e Mel",
+    "categoria": "Corpo",
+    "preco": 24.5,
+    "estoque": 42,
+    "descricao": "Sabonete artesanal vegano, com aveia orgânica e mel de abelhas nativas sem agrotóxicos.",
+    "imagem": "produto2.png"
+  },
+  {
+    "id": 3,
+    "nome": "Shampoo em Barra de Alecrim",
+    "categoria": "Cabelo",
+    "preco": 38.0,
+    "estoque": 25,
+    "descricao": "Fortalece os fios e estimula o couro cabeludo, zero plástico e zero sulfatos.",
+    "imagem": "produto3.png"
+  },
+  {
+    "id": 4,
+    "nome": "Manteiga Corporal de Karité",
+    "categoria": "Corpo",
+    "preco": 56.9,
+    "estoque": 30,
+    "descricao": "Manteiga 100% pura extraída de forma sustentável em comunidades do Burkina Faso.",
+    "imagem": "produto4.png"
+  },
+  {
+    "id": 5,
+    "nome": "Sérum de Ácido Hialurônico Vegetal",
+    "categoria": "Rosto",
+    "preco": 89.9,
+    "estoque": 15,
+    "descricao": "Hidratação profunda com origem vegetal fermentada, livre de crueldade animal.",
+    "imagem": "produto5.png"
+  },
+  {
+    "id": 6,
+    "nome": "Desodorante Natural em Creme",
+    "categoria": "Corpo",
+    "preco": 32.9,
+    "estoque": 50,
+    "descricao": "Livre de alumínio e parabenos, com bicarbonato de sódio e óleos essenciais.",
+    "imagem": "produto6.png"
+  },
+  {
+    "id": 7,
+    "nome": "Condicionador Sólido de Coco",
+    "categoria": "Cabelo",
+    "preco": 36.5,
+    "estoque": 28,
+    "descricao": "Selamento das cutículas e brilho natural, embalagem compostável.",
+    "imagem": "produto7.png"
+  },
+  {
+    "id": 8,
+    "nome": "Batom Natural de Argila e Cacau",
+    "categoria": "Maquiagem",
+    "preco": 42.0,
+    "estoque": 22,
+    "descricao": "Pigmentação com argilas minerais e manteiga de cacau orgânico, textura aveludada.",
+    "imagem": "produto8.png"
+  },
+  {
+    "id": 9,
+    "nome": "Água Micelar de Camomila",
+    "categoria": "Rosto",
+    "preco": 45.9,
+    "estoque": 33,
+    "descricao": "Remove maquiagem e impurezas com extrato de camomila orgânica, sem álcool.",
+    "imagem": "produto9.png"
+  },
+  {
+    "id": 10,
+    "nome": "Esfoliante Corporal de Café e Cacau",
+    "categoria": "Corpo",
+    "preco": 29.9,
+    "estoque": 40,
+    "descricao": "Reaproveita borra de café orgânico local para uma esfoliação natural e aromática.",
+    "imagem": "produto10.png"
+  },
+  {
+    "id": 11,
+    "nome": "Óleo Capilar de Rícino e Argan",
+    "categoria": "Cabelo",
+    "preco": 48.9,
+    "estoque": 20,
+    "descricao": "Nutrição intensa para pontas duplas, prensado a frio, sem silicones.",
+    "imagem": "produto11.png"
+  },
+  {
+    "id": 12,
+    "nome": "Máscara Facial de Argila Verde",
+    "categoria": "Rosto",
+    "preco": 34.9,
+    "estoque": 27,
+    "descricao": "Controla oleosidade e purifica os poros, argila extraída de mineração responsável.",
+    "imagem": "produto12.png"
+  }
+]

@@ -1,0 +1,14 @@
+.pagina-produtos-cabecalho {
+  margin-bottom: 1.4rem;
+}
+
+
+.erro-carregamento {
+  background: #f6e6e3;
+  border: 1px solid var(--erro);
+  color: var(--erro);
+  padding: 1rem 1.2rem;
+  border-radius: var(--raio);
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}

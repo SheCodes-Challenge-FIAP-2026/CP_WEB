@@ -10,7 +10,7 @@ import Home from "./Pages/Home";
 import Produtos from "./Pages/Produtos";
 import Checkout from "./Pages/Checkout";
 
-import "./CSS/App.css";
+import "./css/App.css";
 
 export default function App() {
   return (

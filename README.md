@@ -23,5 +23,4 @@ Projeto de checkpoint (FIAP) desenvolvido em **React + Vite**, implementando fun
 
 Projeto publicado via **GitHub Pages**:
 
-
-**Link do site**: https://palomadantas16.github.io/CP_WEB/
+[**Link do site**](https://shecodes-challenge-fiap-2026.github.io/CP_WEB/)

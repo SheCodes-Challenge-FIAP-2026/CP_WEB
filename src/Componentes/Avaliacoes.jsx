@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import LoadingSpinner from "./LoadingSpinner";
-import "../CSS/Avaliacoes.css";
+import "../css/Avaliacoes.css";
 
 const URL_API_FALSA = "https://jsonplaceholder.typicode.com/comments?_limit=3";
 

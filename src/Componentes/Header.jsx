@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useCarrinho } from "./CarrinhoContext";
 import iconeCarrinho from "../assets/carrinho-de-compras.png";
-import "../CSS/Header.css";
+import "../css/Header.css";
 
 export default function Header() {
   const { quantidadeTotal, setCarrinhoAberto } = useCarrinho();

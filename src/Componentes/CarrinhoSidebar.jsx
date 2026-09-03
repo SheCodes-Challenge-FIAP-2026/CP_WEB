@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useCarrinho } from "./CarrinhoContext";
 import imagensProdutos from "../assets/imagensProdutos";
-import "../CSS/Carrinho.css";
+import "../css/Carrinho.css";
 
 function formatarPreco(valor) {
   return valor.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });

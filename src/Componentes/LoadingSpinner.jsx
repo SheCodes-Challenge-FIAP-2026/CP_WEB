@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/Spinner.css";
+import "../css/Spinner.css";
 
 export default function LoadingSpinner({ texto = "Carregando..." }) {
   return (

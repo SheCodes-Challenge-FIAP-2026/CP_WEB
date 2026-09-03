@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/Filtros.css";
+import "../css/Filtros.css";
 
 export default function Filtros({
   categorias,

@@ -1,0 +1,132 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 2rem 0 3rem;
+}
+
+.hero-texto h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin: 0.5rem 0 1rem;
+}
+
+.hero-texto p {
+  color: var(--texto-suave);
+  font-size: 1rem;
+  max-width: 42ch;
+  margin-bottom: 1.5rem;
+}
+
+.hero-imagem {
+  border-radius: var(--raio);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+
+.hero-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.botao-primario-home {
+  width: 100%;
+  text-align: center; color: aliceblue;
+  background-color: var(--roxo-claro);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.botao-primario-home:hover {
+
+  background-color: var(--roxo-salvia-escuro);
+}
+
+.destaques-titulo {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.destaques-titulo a {
+  font-size: 0.88rem;
+  color: var(--verde-salvia);
+  border-bottom: 1px solid var(--roxo-salvia);
+}
+
+.valores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.4rem;
+  margin: 3rem 0;
+}
+
+.valor-item {
+  background: var(--creme-card);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  padding: 1.3rem;
+}
+
+.valor-item h3 {
+  font-size: 1rem;
+}
+
+.valor-item p {
+  font-size: 1.0rem;
+  color: var(--texto-suave);
+  margin: 0;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.img-item {
+  background: var(--creme-card);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  padding: 1.3rem;
+}
+
+
+.img-item img {
+  color: var(--texto-suave);
+  margin: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 5 / 3;
+  object-fit: cover;
+  border-radius: var(--raio);
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .hero,
+  .valores {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 1.2rem 0 2rem;
+    gap: 1.5rem;
+  }
+
+  .hero-texto h1 {
+    font-size: 1.9rem;
+  }
+
+  .hero-texto p {
+    max-width: none;
+  }
+
+  .botao-primario-home {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .hero-imagem {
+    order: -1;
+  }
+}

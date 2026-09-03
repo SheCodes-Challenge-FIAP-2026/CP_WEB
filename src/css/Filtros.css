@@ -1,0 +1,70 @@
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.2rem;
+  background: var(--creme-card);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  padding: 1rem 1.3rem;
+}
+
+.filtro-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.filtro-grupo label {
+  font-size: 0.75rem;
+  color: var(--texto-suave);
+}
+
+.filtro-categorias {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filtro-categoria-botao {
+  background: var(--creme);
+  border: 1px solid var(--borda);
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  color: var(--texto);
+}
+
+.filtro-categoria-botao.ativo {
+  background: var(--roxo-salvia);
+  border-color: var(--roxo-salvia);
+  color: var(--creme);
+}
+
+.filtro-grupo select,
+.filtro-grupo input[type="range"] {
+  font-family: inherit;
+}
+
+.filtro-preco-slider {
+  width: 200px;
+  accent-color: var(--roxo-salvia);
+  cursor: pointer;
+}
+
+.filtro-preco-limites {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  font-size: 0.7rem;
+  color: var(--texto-suave);
+}
+
+
+.filtro-limpar {
+  margin-left: auto;
+  font-size: 0.82rem;
+  background: transparent;
+  color: var(--lilas);
+  text-decoration: underline;
+}

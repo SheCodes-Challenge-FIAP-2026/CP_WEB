@@ -1,0 +1,48 @@
+.avaliacoes {
+  margin: 3rem 0;
+}
+
+.avaliacoes-titulo {
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.avaliacoes-grade {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+}
+
+.avaliacao-card {
+  background: var(--creme-card);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.avaliacao-estrelas {
+  color: var(--lilas);
+  font-size: 0.85rem;
+}
+
+.avaliacao-texto {
+  color: var(--texto-suave);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.avaliacao-autor {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--texto);
+}
+
+@media (max-width: 800px) {
+  .avaliacoes-grade {
+    grid-template-columns: 1fr;
+  }
+}

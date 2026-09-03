@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+
+:root {
+  --roxo-salvia: #5d455d;
+  --roxo-salvia-escuro: #302f45;
+  --roxo-claro: #9c56c1;
+  --creme: #f4f2ef;
+  --creme-card: #fffdf9;
+  --lilas: #aa5ab8;
+  --texto: #2c2b26;
+  --texto-suave: #67606b;
+  --borda: #e4ddd0;
+  --erro: #a9463f;
+  --sucesso: #4a5d45;
+  --raio: 4px;
+  --sombra: 0 8px 24px rgba(44, 43, 38, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  background: var(--creme);
+  color: var(--texto);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+  color: var(--roxo-salvia-escuro);
+  margin: 0 0 0.5rem 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 2px solid var(--lilas);
+  outline-offset: 2px;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo {
+  flex: 1;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.botao-primario {
+  background: var(--roxo-salvia);
+  color: var(--creme);
+  padding: 0.7rem 1.4rem;
+  border-radius: var(--raio);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.botao-primario:hover {
+  background: var(--roxo-salvia-escuro);
+}
+
+.botao-primario:disabled {
+  background: #a7ab9f;
+  cursor: not-allowed;
+}
+
+.botao-secundario {
+  background: transparent;
+  color: var(--roxo-salvia);
+  border: 1px solid var(--roxo-salvia);
+  padding: 0.65rem 1.3rem;
+  border-radius: var(--raio);
+  font-size: 0.95rem;
+}
+
+.botao-secundario:hover {
+  background: rgba(74, 93, 69, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

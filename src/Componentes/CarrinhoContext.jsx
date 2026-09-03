@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 
+
 const CHAVE_STORAGE = "ecotrend_carrinho";
 
 const CarrinhoContext = createContext(null);

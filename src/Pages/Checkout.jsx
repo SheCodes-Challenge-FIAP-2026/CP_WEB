@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useCarrinho } from "../Componentes/CarrinhoContext";
 import LoadingSpinner from "../Componentes/LoadingSpinner";
 import Toast from "../Componentes/Toast";
-import "../CSS/Checkout.css";
+import "../css/Checkout.css";
 
 function formatarPreco(valor) {
   return valor.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });

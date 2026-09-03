@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import ProdutoCard from "../Componentes/ProdutoCard";
 import Filtros from "../Componentes/Filtros";
 import LoadingSpinner from "../Componentes/LoadingSpinner";
-import "../CSS/Produtos.css";
+import "../css/Produtos.css";
 
 export default function Produtos() {
   const [produtos, setProdutos] = useState([]);

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import produtosGeraisImg from "../assets/produtosGerais.png";
 import Avaliacoes from "../Componentes/Avaliacoes";
-import "../CSS/Home.css";
+import "../css/Home.css";
 
 export default function Home() {
   return (
